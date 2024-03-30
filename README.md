@@ -1,11 +1,11 @@
 # TaskMaker
-Descripcion:
+Descripcion:  
 Dpelicula es una aplicación móvil desarrollada con Flutter que permite a los usuarios comprar fácilmente boletos para el cine desde sus dispositivos móviles. 
 
 ![Logo de Mi Proyecto](https://meterpreter.org/wp-content/uploads/2018/09/flutter.png)
 
-Planificacion:
-Como equipo planeamos desarrollar el programa en el trascurso de la semana, desde la fecha --/--/2024 hasta --/--/2024.
+Planificacion:  
+Como equipo planeamos desarrollar el programa en el trascurso del semestre, desde la fecha --/--/2024 hasta --/--/2024.
 
 Pages:  
 HomePage  

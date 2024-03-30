@@ -23,7 +23,7 @@ Funciones:
 Cesar Vera ()  
 Christian Mendoza ()  
 Ignacio Garcia ()  
-Jared Pimentel ()
+Jared Pimentel ()  
 Fernanda Mattos ()
 
 Configuración del Proyecto:  

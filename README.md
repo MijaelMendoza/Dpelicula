@@ -1,16 +1,65 @@
-# dpeliculas
+# TaskMaker
+Descripcion:  
+Dpelicula es una aplicación móvil desarrollada con Flutter que permite a los usuarios comprar fácilmente boletos para el cine desde sus dispositivos móviles. 
 
-A new Flutter project.
+![Logo de Mi Proyecto](https://meterpreter.org/wp-content/uploads/2018/09/flutter.png)
 
-## Getting Started
+Planificacion:  
+Como equipo planeamos desarrollar el programa en el trascurso del semestre, desde la fecha --/--/2024 hasta --/--/2024.
 
-This project is a starting point for a Flutter application.
+Pages:  
+HomePage  
+Compra del ticket 
+Buscador   
+Estadisticas  
 
-A few resources to get you started if this is your first Flutter project:
+Ramas:  
+Main  
+Persistencia  
+Pages  
+Diseño  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Funciones:  
+Cesar Vera ()  
+Christian Mendoza ()  
+Ignacio Garcia ()  
+Jared Pimentel ()  
+Fernanda Mattos ()
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Configuración del Proyecto:  
+
+Para utilizar esta aplicación Flutter con una base de datos en Firebase, sigue los pasos a continuación:  
+
+Configurar Firebase  
+ 
+Accede a la consola de Firebase (https://console.firebase.google.com/) y crea un nuevo proyecto.  
+Configura tu proyecto para utilizar Firestore como base de datos.  
+Configurar Dependencias  
+
+En el archivo pubspec.yaml de tu proyecto Flutter, agrega las dependencias necesarias para Firebase. Ejemplo:  
+
+dependencies:  
+  firebase_core: ^2.5.0  
+  cloud_firestore: ^3.2.0  
+Inicializar Firebase  
+
+En el archivo principal de tu aplicación (generalmente main.dart), inicializa Firebase al inicio de tu aplicación:  
+ 
+
+import 'package:firebase_core/firebase_core.dart';  
+
+void main() async {  
+  WidgetsFlutterBinding.ensureInitialized();  
+  await Firebase.initializeApp();  
+  runApp(MyApp());  
+}  
+Acceder a la Base de Datos  
+
+Utiliza el servicio FirebaseFirestore para acceder y manipular datos en Firestore.  
+
+Ejecutar la Aplicación  
+
+Ejecuta tu aplicación Flutter usando el siguiente comando en la terminal:
+
+flutter run
+¡Listo! Ahora puedes disfrutar de tu aplicación Flutter conectada a una base de datos en Firebase. Asegúrate de ajustar las configuraciones y nombres de las colecciones según las necesidades específicas de tu proyecto.

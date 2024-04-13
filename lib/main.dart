@@ -18,10 +18,13 @@ import 'package:dpeliculas/pages/login_page.dart';
 import 'package:dpeliculas/pages/register_page.dart';
 import 'package:dpeliculas/pages/seats_page.dart';
 import 'package:dpeliculas/pages/topup_page.dart';
+import 'package:dpeliculas/firebase_options.dart'; // Asegúrate de usar la ruta correcta al archivo
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform, // Utiliza las opciones configuradas
+  );
   runApp(MyApp());
 }
 

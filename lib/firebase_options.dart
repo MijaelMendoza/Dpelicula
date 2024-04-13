@@ -49,15 +49,17 @@ class DefaultFirebaseOptions {
     messagingSenderId: '307076009581',
     projectId: 'dpeliculas-695a1',
     authDomain: 'dpeliculas-695a1.firebaseapp.com',
+    databaseURL: 'https://dpeliculas-695a1-default-rtdb.firebaseio.com',
     storageBucket: 'dpeliculas-695a1.appspot.com',
     measurementId: 'G-VBZGBR8CNV',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBeAZxlcFfl_Lb6N8PyT0NNfnjf4KRsy24',
-    appId: '1:307076009581:android:c0f6b8130c883f1871f964',
+    appId: '1:307076009581:android:79023614e93cfd0471f964',
     messagingSenderId: '307076009581',
     projectId: 'dpeliculas-695a1',
+    databaseURL: 'https://dpeliculas-695a1-default-rtdb.firebaseio.com',
     storageBucket: 'dpeliculas-695a1.appspot.com',
   );
 
@@ -66,6 +68,7 @@ class DefaultFirebaseOptions {
     appId: '1:307076009581:ios:2597b66113c4374671f964',
     messagingSenderId: '307076009581',
     projectId: 'dpeliculas-695a1',
+    databaseURL: 'https://dpeliculas-695a1-default-rtdb.firebaseio.com',
     storageBucket: 'dpeliculas-695a1.appspot.com',
     iosBundleId: 'com.example.movieApp',
   );
@@ -75,6 +78,7 @@ class DefaultFirebaseOptions {
     appId: '1:307076009581:ios:2597b66113c4374671f964',
     messagingSenderId: '307076009581',
     projectId: 'dpeliculas-695a1',
+    databaseURL: 'https://dpeliculas-695a1-default-rtdb.firebaseio.com',
     storageBucket: 'dpeliculas-695a1.appspot.com',
     iosBundleId: 'com.example.movieApp',
   );
